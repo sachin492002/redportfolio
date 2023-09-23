@@ -1,5 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+* {
+    cursor: none;
+  }
 
+.cursor-style {
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
 
+.light-saber-handle{
+    background-color: #fadede;
+    height: 2rem;
+    width: 0.7rem;
+    border-radius: 0 0 20px 20px;
+}
+.light-saber-blade{
+    background-color: rgb(255, 38, 0);
+    height: 10rem;
+    width: 0.5rem;
+    border-radius: 20px 20px 0 0;
+    animation: glow  2s infinite;
+   
+}
+
+.saber-seprator{
+    background-color: #00aaff;
+    height: 0.5rem;
+    width: 2rem;
+    border-radius: 20px 20px 0 0;
+}

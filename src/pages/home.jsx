@@ -22,7 +22,7 @@ export default function Home() {
             className="w-full h-full overflow-hidden"
           />
         </div>
-        <a href="/resume.pdf"><button className="md:absolute h-12 hover:shadow-2xl hover:shadow-red-400/50 hover:scale-125 duration-200  w-32 bottom-10 right-20 flex justify-center items-center text-white rounded-lg bg-[var(--clr-border-1)] ">
+        <a href="/resume.pdf"><button className="md:absolute cursor-none h-12 w-1/3 hover:shadow-2xl hover:shadow-red-400/50 hover:scale-125 duration-200  w-32 bottom-10 right-20 flex justify-center items-center text-white rounded-lg bg-[var(--clr-border-1)] ">
           CV
           </button></a>
       </div>

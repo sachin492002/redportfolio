@@ -12,6 +12,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: black;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
   color: aliceblue;
 }
 :root{
