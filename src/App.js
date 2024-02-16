@@ -13,73 +13,18 @@ import {useEffect,useState,useRef} from 'react';
 
 function App() {
   const cursor = useRef(null)
-  const changePosition = (e) => {
-    cursor.current.style.top = `${e.clientY}px`;
-    cursor.current.style.left = `${e.clientX}px`;
-  }
+  // const changePosition = (e) => {
+  //   cursor.current.style.top = `${e.clientY}px`;
+  //   cursor.current.style.left = `${e.clientX}px`;
+  // }
   return (
     
-    <div className="App overflow-hidden " onMouseMove={changePosition}>
-      <div className="cursor-style flex flex-col-reverse rotate-45 origin-top items-center" ref={cursor} >
+    <div className="overflow-hidden">
+      {/* <div className="cursor-style flex flex-col-reverse rotate-45 origin-top items-center" ref={cursor} >
         <div className="light-saber-handle "></div>
         <div className="saber-seprator"></div>
         <div className="light-saber-blade"></div>
-      </div>
-      <div className="absolute w-[100vw] h-[100vh] overflow-hidden">
-        <div className="stars">
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-          <div className="star"></div>
-        </div>
-      </div>
-      
+      </div> */}
       <Routes>
         <Route>
           <Route path="/" element={<Home />}></Route>
@@ -88,7 +33,7 @@ function App() {
           <Route path="/projects" element={<Projects />}></Route>
         </Route>
       </Routes>
-      
+  
       
       <Sidebar />
     </div>

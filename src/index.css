@@ -16,12 +16,16 @@ body {
   color: aliceblue;
 }
 :root{
+  ::-webkit-scrollbar {
+    display: none;
+};
   --clr-text-1 : #FF2B51;
   --clr-border-1:#E40037;
-
+  --clr-project-1:rgba(17, 25, 40, 0.7);
+  --clr-project-border : rgba(255, 255, 255, 0.125);
 }
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New','Poppins','Orbitron'
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New','Poppins','Poppins'
     monospace;
 }
 @keyframes glow {
@@ -66,3 +70,5 @@ code {
     float: left;
     margin-top: 100%;
 }
+
+

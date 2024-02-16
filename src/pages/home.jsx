@@ -3,9 +3,9 @@ import Navbar from '../components/navbar';
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-[100vh] relative justify-start md:justify-center items-start md:items-center">
+    <div className="flex flex-col min-h-[100vh] relative justify-start  md:items-center">
       <Navbar />
-      <div className="flex flex-col md:flex-row font-['Orbitron']">
+      <div className="flex flex-col md:flex-row font-['Poppins']">
         <div className="absolute w-72 bottom-0 left-0 p-8">
           <p className="text-2xl  text-white">
             Full-Stack Developer & a Tech Enthusiast
@@ -17,7 +17,7 @@ export default function Home() {
         
         <div className="bord w-full h-full md:w-96 md:h-96 rounded-full border-[1rem] md:border-[2rem] border-[var(--clr-border-1)] overflow-hidden">
           <img
-            src="/hero.png"
+            src="/bot.png"
             alt="sm"
             className="w-full h-full overflow-hidden"
           />
