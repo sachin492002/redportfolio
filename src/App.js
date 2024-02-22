@@ -7,9 +7,9 @@ import About from './pages/about';
 import Contact from './pages/contact';
 import Projects from './pages/projects';
 
-import Sidebar from './components/Sidebar';
 import { motion } from 'framer-motion';
 import {useEffect,useState,useRef} from 'react';
+import Navbar from './components/navbar';
 
 function App() {
   const cursor = useRef(null)
@@ -24,9 +24,12 @@ function App() {
         <div className="light-saber-handle "></div>
         <div className="saber-seprator"></div>
         <div className="light-saber-blade"></div>
+
       </div> */}
+      <Navbar/>
       <Routes>
         <Route>
+          
           <Route path="/" element={<Home />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
@@ -35,7 +38,7 @@ function App() {
       </Routes>
   
       
-      <Sidebar />
+      {/* <Sidebar /> */}
     </div>
   );
 }
