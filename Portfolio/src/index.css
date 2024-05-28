@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css?family=Orbitron:regular,bold,italic&subset=latin,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Poppins:regular,bold,italic&subset=latin,latin-ext');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue','Poppins','Orbitron'
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+:root{
+  ::-webkit-scrollbar {
+    display: none;
+};
+  --clr-text-1 : #FF2B51;
+  --clr-border-1:#E40037;
+  --clr-project-1:rgba(17, 25, 40, 0.7);
+  --clr-project-border : rgba(255, 255, 255, 0.125);
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New','Poppins','Poppins'
+    monospace;
+}
