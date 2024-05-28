@@ -16,7 +16,7 @@ export const web = [
 	{
 		name: 'Red Portfolio',
 		cover: portfolio,
-		links: [{ icon: gitLink, link: 'https://github.com/sachin492002/redportfolio' },{ icon: webLink, link: 'http://redport.vercel.app' }],
+		links: [{ icon: gitLink, link: 'https://github.com/sachin492002/redportfolio' },{ icon: webLink, link: 'https://redportfolio-phi.vercel.app/' }],
 	},
 	{
 		name: 'Windows',
