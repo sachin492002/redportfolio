@@ -1,0 +1,45 @@
+.projects {
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 90px 0 70px;
+
+  overflow: hidden;
+
+  background:
+    radial-gradient(
+      ellipse at 50% 45%,
+      rgba(67, 30, 110, 0.15),
+      transparent 55%
+    );
+}
+
+.projects::before {
+  content: "";
+
+  position: absolute;
+  inset: 0;
+
+  pointer-events: none;
+
+  background-image:
+    radial-gradient(
+      rgba(255, 255, 255, 0.08) 1px,
+      transparent 1px
+    );
+
+  background-size: 45px 45px;
+
+  opacity: 0.08;
+}
+
+.projects > * {
+  position: relative;
+  z-index: 1;
+}

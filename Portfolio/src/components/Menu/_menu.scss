@@ -18,8 +18,8 @@
 		width: 100%;
 
 		.menuButton {
-			width: 40px;
-			height: 40px;
+			width: 80px;
+			height: 80px;
 			position: relative;
 			top: 0.4vw;
 			z-index: 2;
@@ -27,35 +27,35 @@
 			.top,
 			.left,
 			.right {
-				width: 10px;
-				height: 10px;
+				width: 20px;
+				height: 20px;
 				background-color: $text-color;
 				border-radius: 3px;
 				position: absolute;
 				transform: rotate(45deg);
 			}
 			.top {
-				top: 8px;
+				top: 16px;
 				left: 0;
 				right: 0;
 				margin: auto;
 			}
 			.left {
-				top: 17px;
-				left: 6px;
+				top: 34px;
+				left: 12px;
 			}
 			.right {
-				top: 17px;
-				right: 6px;
+				top: 34px;
+				right: 12px;
 			}
 			.bottom {
-				width: 6px;
-				height: 6px;
+				width: 12px;
+				height: 12px;
 				background-color: rgb(238, 255, 47);
-				border-radius: 2px;
+				border-radius: 4px;
 				position: absolute;
 				transform: rotate(45deg);
-				bottom: 8px;
+				bottom: 16px;
 				left: 0;
 				right: 0;
 				margin: auto;

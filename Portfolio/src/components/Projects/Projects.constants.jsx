@@ -9,48 +9,96 @@ import boards from '../../assets/images/projects/Boards.png';
 import musebox from '../../assets/images/projects/musebox.webp';
 import portfolio from '../../assets/images/projects/redport.png';
 
-
-
-
+import { FaMandalorian } from "react-icons/fa";
+import { GrWindows } from "react-icons/gr";
+import { SiYoutubemusic } from "react-icons/si";
+import { MdLocalMovies } from "react-icons/md";
+import { IoMdPhotos } from "react-icons/io";
+import { FaShop } from "react-icons/fa6";
+import { IoClipboard } from "react-icons/io5";
+import { FaLungs } from "react-icons/fa6";
+import { MdOutlineLocationSearching } from "react-icons/md";
 export const web = [
 	{
-		name: 'Red Portfolio',
-		cover: portfolio,
-		links: [{ icon: gitLink, link: 'https://github.com/sachin492002/redportfolio' },{ icon: webLink, link: 'https://redportfolio-phi.vercel.app/' }],
+		title: 'Red Portfolio',
+		description: 'A portfolio website built with React and Framer Motion, showcasing my projects and skills in a visually appealing and interactive manner.',
+		image:portfolio,
+		icon: <FaMandalorian />,
+		accent: '#FF0000',
+		links: [ 'https://github.com/sachin492002/redportfolio' , 'https://redportfolio-phi.vercel.app/' ],
+		technologies: ['React', 'Framer Motion'],
 	},
 	{
-		name: 'Windows',
-		
-		cover: Windows,
-		links: [{ icon: gitLink, link: 'https://github.com/sachin492002/port' },{ icon: webLink, link: 'https://port-zeta-five.vercel.app/' }],
+		title: 'Windows',
+		description: '',
+		technologies: ['React', 'Electron', 'TailwindCSS'],
+		image: Windows,
+		icon: <GrWindows />,
+		accent: "#0a57f2",
+		links: [ 'https://github.com/sachin492002/port' , 'https://port-zeta-five.vercel.app/' ],
 	},
 	{ 
-		name: 'Musebox',
-		cover: musebox,
-		links: [{ icon: gitLink, link: 'https://github.com/sachin492002/musebox' },{ icon: webLink, link: 'http://museboxx.vercel.app' }]
-},
-	{
-		name: 'FlickFix',
-		
-		cover: FlickFix,
-		links: [{ icon: gitLink, link: 'https://github.com/sachin492002/FlickFix' },{ icon: webLink, link: 'https://stream-jet.vercel.app/' }]
+		title: 'Musebox',
+		description: 'A music streaming application built with Next.js.',
+		image: musebox,
+		icon: <SiYoutubemusic />,
+		accent: '#14f7ec',
+		links: [ 'https://github.com/sachin492002/musebox' , 'http://museboxx.vercel.app' ],
+		technologies: ['Next.js', 'TailwindCSS', 'Redux'],
 	},
 	{
-		name: 'GallaryX',
-		cover: gx,
-		links: [{ icon: gitLink, link: 'https://github.com/sachin492002/GallaryX' }]
+		title: 'FlickFix',
+		description: 'A Netflix like application prototype built with Next.js.',
+		technologies: ['Next.js','redux', 'TailwindCSS'],
+		image: FlickFix,
+		icon: <MdLocalMovies />,
+		accent: '#FF0000',
+		links: [ 'https://github.com/sachin492002/FlickFix' , 'https://stream-jet.vercel.app/' ]
 	},
 	{
-		name: 'Shopper',
-		
-		cover: sh,
-		links: [{ icon: gitLink, link: 'https://github.com/sachin492002/MERN-E-commerce' },{ icon: webLink, link: 'http://shopperby4.vercel.app' }]
+		title: 'GallaryX',
+		description: 'A photo gallery application built with React-Native.',
+		technologies: ['React-Native', 'Expo', 'TailwindCSS'],
+		image: gx,
+		icon: <IoMdPhotos />,
+		accent: '#bce3e3',
+		links: [ 'https://github.com/sachin492002/GallaryX' ]
 	},
 	{
-		name: 'Boards',
-		
-		cover: boards,
-		links: [{ icon: gitLink, link: 'https://github.com/sachin492002/Boards' },{ icon: webLink, link: 'https://toddlebysm.netlify.app/' }]
+		title: 'Shopper',
+		description: 'An e-commerce application built with MERN Stack.',
+		technologies: ['MERN Stack', 'Redux', 'TailwindCSS'],
+		image: sh,
+		icon: <FaShop />,
+		accent: '#00FFFF',
+		links: [ 'https://github.com/sachin492002/MERN-E-commerce' , 'http://shopperby4.vercel.app' ]
 	},
+	{
+		title: 'Boards',
+		description: 'A task management application built with React.',
+		technologies: ['React', 'TailwindCSS', 'Redux'],
+		image: boards,
+		icon: <IoClipboard />,
+		accent: '#f73ee8',
+		links: [ 'https://github.com/sachin492002/Boards' , 'https://toddlebysm.netlify.app/' ]
+	},
+	{
+		title: 'Lung Cancer Detection',
+		description: 'A thesis project on lung cancer detection using machine learning on gene expression data.',
+		technologies: ['Python', 'TensorFlow', 'OpenCV', 'Scikit-learn', 'Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'Jupyter Notebook', 'Keras', 'Flask', 'Heroku',],
+		image:'https://ebv2e3r5onu.exactdn.com/wp-content/uploads/2024/05/lung-cancer.jpg?strip=all',
+		icon: <FaLungs />,
+		accent: '#ff6b6b',
+		links: [ 'https://github.com/sachin492002/Lung-Cancer-Prediction-ON-gene-expression-data' , 'https://github.com/sachin492002/Lung-Cancer-Prediction-ON-gene-expression-data' ]
+	},
+	{
+		title: 'A document search engine built with Python and Flask.',
+		description: 'Basic Search Engine to implement Information Retrieval for finding relevant documents/books.',
+		technologies: ['Python', 'Flask', 'HTML', 'CSS', 'JavaScript','Information Retrieval','indexing','ranking','query processing'],
+		image:'https://systematic.com/media/52uhz35v/gellerup_library_1920x1080-6.jpg?width=1120&height=1120&format=webp',
+		icon: <MdOutlineLocationSearching />,
+		accent: '#ff6b6b',
+		links: [ 'https://github.com/sachin492002/BookFinder' , 'https://github.com/sachin492002/BookFinder' ]
+	}
 ];
 
