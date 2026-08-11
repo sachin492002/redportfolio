@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f368c2e2.css",
+    "main.js": "/static/js/main.cffb3b00.js",
+    "static/media/Stay Dreaming Regular.ttf": "/static/media/Stay Dreaming Regular.5f41e4323ae718ea1439.ttf",
+    "static/media/FlickFix.webp": "/static/media/FlickFix.6665e7f90bf551b04865.webp",
+    "static/media/musebox.webp": "/static/media/musebox.d583fcbbbfb7a8b12d16.webp",
+    "static/media/shopper-1.webp": "/static/media/shopper-1.8f5bb1031d5170bdafcd.webp",
+    "static/media/redport.png": "/static/media/redport.83569d8a4792c2523209.png",
+    "static/media/Windows.webp": "/static/media/Windows.2b99ccef60949bcc0a96.webp",
+    "static/media/Boards.png": "/static/media/Boards.01b4a64062ec872b7f9d.png",
+    "static/media/r-map.png": "/static/media/r-map.f5c3d5842d6f5b3fe2ba.png",
+    "static/media/GallaryX.webp": "/static/media/GallaryX.ee7485e1991b115dce41.webp",
+    "static/media/nextjs.png": "/static/media/nextjs.b698aa972fa1f7a4a733.png",
+    "static/media/nodejs.png": "/static/media/nodejs.400c17c7472f664365ad.png",
+    "static/media/django.png": "/static/media/django.42c1c4072a932971f00c.png",
+    "static/media/tailwindcss.png": "/static/media/tailwindcss.362260edc4003a062754.png",
+    "static/media/globe2.svg": "/static/media/globe2.49f76029015fad74a47a3551b2ae34fa.svg",
+    "static/media/github.svg": "/static/media/github.049a66df24a80bf61f1a560bf8be92f2.svg",
+    "index.html": "/index.html",
+    "main.f368c2e2.css.map": "/static/css/main.f368c2e2.css.map",
+    "main.cffb3b00.js.map": "/static/js/main.cffb3b00.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f368c2e2.css",
+    "static/js/main.cffb3b00.js"
+  ]
+}
